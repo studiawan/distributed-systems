@@ -1,7 +1,7 @@
 import json
 import urllib2
 
-# set proxy
+# set proxy (if applicable)
 proxy_handler = urllib2.ProxyHandler({'https': 'http://xxx%40xxx:xxx@proxy2.its.ac.id:8080'})
 opener = urllib2.build_opener(proxy_handler)
 urllib2.install_opener(opener)

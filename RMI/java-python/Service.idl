@@ -1,0 +1,5 @@
+// A very simple interface to explain this example
+interface Service {
+    string ping(in string Message);
+};
+

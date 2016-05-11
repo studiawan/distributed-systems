@@ -1,0 +1,6 @@
+On windows
+ cd C:/Python27/Script
+ python ppserver.py -a
+
+linux
+./ppserver.py -a
